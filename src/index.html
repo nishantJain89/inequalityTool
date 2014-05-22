@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>inequalityTool</title>
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../../../libs/common.js"></script>
+	<script src="../../../../libs/parameterPassingHtml5Ques.js"></script>
+	<script src="../../../../libs/loadxmldoc.js"></script>
+	<script src="../../../../libs/jcanvas.min_13.04.05.js"></script>
+	<script src="../../../../libs/jquery_ui.js"></script>
+	<script src="../../../../libs/jquery_ui_touch.js"></script>
+	<script src="../libs/script.js"></script>	
+	
+	<script>
+		var getParameters = getURLParameters();
+		var languageXml = "xml.xml";
+		
+	</script>	
+	
+</head> 
+<body>
+	<div id="container">
+		<div id="modeContainer">
+			<div id="mode1" class="modeDiv"></div>
+			<div id="mode2" class="modeDiv"></div>
+			<div id="mode3" class="modeDiv"></div>	
+		</div>
+		<div id="toolTip"></div>
+		<div id="tipScreen">
+			<div id="tipHead"></div>
+			<div id="close">X</div>
+			<div id="tip1" class="tip"></div>
+			<div id="tip2" class="tip"></div>
+			<div id="tip3" class="tip"></div>
+			<div id="tip4" class="tip"></div>
+			<div id="tip5" class="tip"></div>
+		</div>
+		
+		<div id="screen1" class="screenDiv">
+			<div id="operationContainer">
+				<div id="operation1" class="operationDiv"></div>
+				<div id="operation2" class="operationDiv"></div>
+				<div id="operation3" class="operationDiv"></div>
+				<div id="operation4" class="operationDiv"></div>	
+				<div id="operation5" class="operationDiv"></div>	
+				<div id="operation6" class="operationDiv"></div>	
+				<div id="operation7" class="operationDiv"></div>	
+			</div>
+			<div id="workingArea">
+				<div id="scrollArea"></div>
+			</div>
+		</div>
+		<div id="screen2" class="screenDiv">
+			<canvas id="canvas1" height=100 width=600></canvas>	
+			<div id="sliderContainer">
+				<div id="sliderTag">a</div>
+				<div id="redSlider" value="">
+					<div class="ui-slider-handle"></div>
+				</div>
+				<div id="sliderVal"></div>
+			</div>
+			<div id="buttonContainer">
+				<div id="buttonsTag"></div>
+				<div id="button1" val='≤' class="button">≤</div>
+				<div id="button2" val='<' class="button"><</div>
+				<div id="button3" val='=' class="button">=</div>
+				<div id="button4" val='>' class="button">></div>
+				<div id="button5" val='≥' class="button">≥</div>	
+			</div>
+			<div id="statement"></div>
+		</div>
+		
+		<div id="screen3" class="screenDiv">
+			<div id="scr3Slider1"></div>
+			<div id="scr3Slider2"></div>
+			<div id="control1">
+				<div id="control1butt1" class="control1butt">≤</div>
+				<div id="control1butt2" class="control1butt"><</div>
+				<div id="control1butt3" class="control1butt">=</div>
+				<div id="control1butt4" class="control1butt">></div>
+				<div id="control1butt5" class="control1butt">≥</div>
+			</div>
+			<div id="dispControl1">Select sign</div>
+			<div id="control2">
+				<div id="control2butt1" class="control2butt">≤</div>
+				<div id="control2butt2" class="control2butt"><</div>
+				<div id="control2butt3" class="control2butt">=</div>
+				<div id="control2butt4" class="control2butt">></div>
+				<div id="control2butt5" class="control2butt">≥</div>
+			</div>
+			<div id="dispControl2">Select sign</div>
+			<canvas id="scr3Canvas1" height=50 width=300></canvas>
+			<canvas id="scr3Canvas2" height=50 width=300></canvas>
+			<canvas id="scr3Canvas3" height=50 width=300></canvas>
+			<canvas id="scr3Canvas4" height=250 width=300></canvas>
+			<button id="and">AND</button>
+			<button id="or">OR</button>
+			
+			<div id="sliderContainer2">
+				<div id="redSlider2" value="">
+					<div class="ui-slider-handle"></div>
+				</div>
+			</div>
+			
+			<div id="sliderContainer3">
+				<div id="redSlider3" value="">
+					<div class="ui-slider-handle"></div>
+				</div>
+			</div>
+			<div id="mode3Ans"></div>
+			
+		</div>	
+	</div>
+	<div id="screenModal">
+		<div class="promptContainer">
+	        <div id="sparkieIcon"></div>
+	        <div class="promptText"></div>
+	        <div class="buttonOK" id="OK">OK</div> 
+		</div>	
+	</div>
+</body>
+</html>

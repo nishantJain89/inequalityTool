@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="temp">
+<english>
+	<questions>
+	</questions>
+	<prompts>
+		<prompt name="p101" text="Inequality solver" page="page1" voice=""/>
+		<prompt name="p102" text="Movable line graph" page="page1" voice=""/>
+		<prompt name="p103" text="Compound inequality" page="page1" voice=""/>
+		<prompt name="p104" text="Tool Tip" page="page1" voice=""/>
+		<prompt name="p105" text="Read the tool tips carefully." page="page1" voice=""/>
+		<prompt name="p106" text="Sorry. This operation cannot be used more than 5 times." page="page1" voice=""/>
+		<prompt name="p107" text="First use add/subtract !!" page="page1" voice=""/>
+		<prompt name="p108" text="Please reduce the equation and isolate x terms first. " page="page1" voice=""/>
+		<prompt name="p109" text="Please enter the values considering the previous statement." page="page1" voice=""/>
+		<prompt name="p110" text="Multiply such that the denominator is 1." page="page1" voice=""/>
+		<prompt name="p111" text="Please use tool tips, Isolate x." page="page1" voice=""/>
+		<prompt name="p112" text="Divide by a value that eliminates the denominator or x." page="page1" voice=""/>
+		<prompt name="p113" text="Please use tool tips, Isolate x." page="page1" voice=""/>
+		<prompt name="p114" text="Please enter positive values only." page="page1" voice=""/>
+		<prompt name="p115" text="Well Done! You've obtained the solution of the given inequality." page="page1" voice=""/>
+		<prompt name="p116" text="Eliminate the fraction first." page="page1" voice=""/>
+		<prompt name="p117" text="Use multiplication first." page="page1" voice=""/>
+		<prompt name="p118" text="Use division to eliminate co-efficient of x." page="page1" voice=""/>
+		
+		<prompt name="p119" text="The solution is all real numbers #ansString1# #point1#" page="page1" voice=""/>
+		<prompt name="p120" text= " and #ansString2# #point2#" page="page1" voice=""/>
+		<prompt name="p121" text="greater than" page="page1" voice=""/>
+		<prompt name="p122" text="less than" page="page1" voice=""/>
+		<prompt name="p123" text="greater than or equal to" page="page1" voice=""/>
+		<prompt name="p124" text="less than or equal to" page="page1" voice=""/>
+		<prompt name="p125" text="The solution is the real number #point1#" page="page1" voice=""/>
+		<prompt name="p126" text="No solution exists between the two inequalities" page="page1" voice=""/>
+		<prompt name="p127" text=" or #ansString2# #point2#" page="page1" voice=""/>
+		
+		<prompt name="p128" text="1. Enter only numeric values in the blank. (e.g. -1, -2, 0, 1, 2 etc.)" page="page1" voice=""/>
+		<prompt name="p129" text="2. Hit enter after entering a value in the blank." page="page1" voice=""/>
+		<prompt name="p130" text="3. Isolate the variable on the left side of the inequality sign." page="page1" voice=""/>
+		<prompt name="p131" text="4. Isolating means coefficient of x is 1. &lt;br&gt; Non-isolated form: 2x + 4 > 12; Isolated form: x > 4." page="page1" voice=""/>
+		<prompt name="p132" text="5. When x is present on both sides of the equation, (e.g. 2x + 3 > 1 + x) use Group Like Terms." page="page1" voice=""/>
+		
+		<prompt name="p133" text="1. Choose appropriate sign from the sign list." page="page1" voice=""/>
+		<prompt name="p134" text="2. Move the slider and observe the line graph of a particular inequality." page="page1" voice=""/>
+		<prompt name="p135" text="3. Empty circle on a number in a line graph means that number is not included." page="page1" voice=""/>
+		<prompt name="p136" text="4. Filled circle signifies that number in included in the inequality set." page="page1" voice=""/>
+		
+		
+		<prompt name="p137" text="1. Choose appropriate sign and move the slider to set both the inequalities." page="page1" voice=""/>
+		<prompt name="p138" text="2. Choose between AND and OR operations." page="page1" voice=""/>
+		<prompt name="p139" text="3. Line at the bottom (in green) shows solution set of both the inequalities." page="page1" voice=""/>
+		<prompt name="p140" text="4. Vertical line helps you visualize all the three lines together." page="page1" voice=""/>
+		
+		<prompt name="p141" text="Tool Tips" page="page1" voice=""/>
+		
+		
+	</prompts>
+	
+	<instructions>
+		
+	</instructions>
+	
+	<miscellaneous>
+		<misc name="misc101" text="Subtract from both sides" page="page1" voice=''/>
+		<misc name="misc102" text="Add on both sides" page="page1" voice=''/>
+		<misc name="misc103" text="Multiply on both sides" page="page1" voice=''/>
+		<misc name="misc104" text="Divide on both sides" page="page1" voice=''/>
+		<misc name="misc105" text="Flip the inequality" page="page1" voice=''/>
+		<misc name="misc106" text="Multiply by -1" page="page1" voice=''/>
+		<misc name="misc107" text="Group like terms" page="page1" voice=''/>
+	</miscellaneous>
+</english>
+<hindi>
+	<questions>
+	</questions>
+	<prompts>
+		<prompt name="p101" text="region 1" page="page1" voice="" />
+		<prompt name="p102" text="region 2" page="page1" voice="" />
+	</prompts>
+	
+	<instructions>
+	</instructions>
+	
+	<miscellaneous>
+	</miscellaneous>
+
+</hindi>
+<gujarati>
+	<questions>
+	</questions>
+	<prompts>
+		<prompt name="p101" text="region 1" page="page1" voice="" />
+		<prompt name="p102" text="region 2" page="page1" voice="" />
+		
+	</prompts>
+	
+	<instructions>
+	</instructions>
+	
+	<miscellaneous>
+	</miscellaneous>
+
+</gujarati>
+</application>
